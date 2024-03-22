@@ -27,7 +27,7 @@ func (s *server) Create(ctx context.Context, req *user_api.CreateRequest) (*user
 }
 
 func (s *server) Update(ctx context.Context, req *user_api.UpdateRequest) (*emptypb.Empty, error) {
-	log.Printf("Id: %s, Name: %s, Email: %s", req.GetId(), req.GetName(), req.GetName())
+	log.Printf("Id: %d, Name: %s, Email: %s", req.GetId(), req.GetName(), req.GetName())
 	return nil, nil
 }
 

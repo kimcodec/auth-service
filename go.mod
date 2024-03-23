@@ -1,4 +1,4 @@
-module github.com/kimcodec/microservices/auth-service
+module github.com/kimcodec/microservices/auth_service
 
 go 1.22.0
 

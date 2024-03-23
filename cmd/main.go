@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	user_api "github.com/kimcodec/microservices/auth-service/pkg/user_v1"
+	user_api "github.com/kimcodec/microservices/auth_service/pkg/user_v1"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/protobuf/types/known/emptypb"

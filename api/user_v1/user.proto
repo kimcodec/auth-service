@@ -6,7 +6,7 @@ import "google/protobuf/timestamp.proto";
 import "google/protobuf/empty.proto";
 import "google/protobuf/wrappers.proto";
 
-option go_package = "github.com/kimcodec/microservices/pkg/user_api;user_api";
+option go_package = "github.com/kimcodec/microservices/auth_service/pkg/user_api;user_api";
 
 service UserApiV1{
   rpc Create(CreateRequest) returns (CreateResponse);
